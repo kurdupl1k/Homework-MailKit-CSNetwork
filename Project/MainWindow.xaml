@@ -10,17 +10,6 @@
         Height="450"
         MinWidth="700">
   <StackPanel>
-    <UniformGrid Columns="2"
-                 VerticalAlignment="Center"
-                 HorizontalAlignment="Center"
-                 Height="25"
-                 Width="700">
-      <TextBlock Text="Prikols and other prikols:"
-                 HorizontalAlignment="Center"
-                 VerticalAlignment="Center"/>
-      <TextBox HorizontalAlignment="Center"
-               VerticalAlignment="Center"
-               Width="250"/>
-    </UniformGrid>
+    
   </StackPanel>
 </Window>
