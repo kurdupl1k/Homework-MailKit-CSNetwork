@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using MailKit.Net.Imap;
+using System.Windows;
 
 namespace Project
 {
@@ -13,6 +14,9 @@ namespace Project
     {
       Email = txtbxEmail.Text;
       Password = psswrdbx.Password;
+
+      new MainWindow().Show();
+      Close();
     }
   }
 }

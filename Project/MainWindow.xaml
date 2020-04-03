@@ -8,8 +8,14 @@
         Title="MainWindow" 
         Width="800"
         Height="450"
-        MinWidth="700">
-  <StackPanel>
-    
-  </StackPanel>
+        MinWidth="700"
+        WindowStartupLocation="CenterScreen">
+  <UniformGrid Columns="2">
+    <DataGrid Loaded="DataGrid_Loaded" Name="dgMessages">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Subject" Binding="{Binding Path=Subject}"/>
+        <DataGridTextColumn Header="Body" Binding="{Binding Path=Body}"/>
+      </DataGrid.Columns>
+    </DataGrid>
+  </UniformGrid>
 </Window>
